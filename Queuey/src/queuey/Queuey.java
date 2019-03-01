@@ -2,6 +2,7 @@ package queuey;
 
 import java.util.LinkedList;
 import java.util.Scanner;
+
 import java.util.Stack;
 
 public class Queuey {
@@ -70,8 +71,6 @@ public class Queuey {
 		System.out.println("Peek: " + stacky.peek());
 		System.out.println(stacky.pop() + "! ");
 		System.out.println("Size: " + stacky.size());
-		
-
 		
 		input.close();
 	}
